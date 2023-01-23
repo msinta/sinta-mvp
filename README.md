@@ -1,11 +1,15 @@
- #In Progress#
+#In Progress
+ ---------------------
+
 
 # Sinta v.2 🚀
 #### Stop wasting time, hire faster and better.
 A Recruitment Management System that helps recruiters to make the hiring process fast and transparent.
 🔗  [Sinta Home](https://www.sintaapp.com/)
 
- #In Progress#
+
+  #In Progress
+ ---------------------
 
 ## Getting Started
 ### Setup
