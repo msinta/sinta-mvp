@@ -6,7 +6,7 @@
 // Define fonts for body and headers
 $body-font: "Konnect", "Helvetica", "sans-serif";
 // $headers-font: "Figtree", "Helvetica", "sans-serif";
-$headers-font: "Chillax-Regular", "Helvetica", "sans-serif";
+$headers-font: "Chillax-SemiBold", "Helvetica", "sans-serif";
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
@@ -37,10 +37,10 @@ $headers-font: "Chillax-Regular", "Helvetica", "sans-serif";
 }
 
 @font-face {
-  font-family: 'Chillax-Regular';
-  src: url('Chillax_Regular/Chillax-Regular.woff2') format('woff2'),
-       url('Chillax_Regular/Chillax-Regular.woff') format('woff'),
-       url('Chillax_Complete/Chillax-Regular.ttf') format('truetype');
+  font-family: 'Chillax-SemiBold';
+  src: url('Chillax/Chillax-SemiBold.woff2') format('woff2'),
+       url('Chillax/Chillax-SemiBold.woff') format('woff'),
+       url('Chillax/Chillax-SemiBold.ttf') format('truetype');
        font-weight: 400;
        font-display: swap;
        font-style: normal;
