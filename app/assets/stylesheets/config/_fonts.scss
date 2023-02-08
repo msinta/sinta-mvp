@@ -1,11 +1,12 @@
 // Import Google fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&display=swap');
+@import url('../config/chillax.css');
 
 // Define fonts for body and headers
 $body-font: "Konnect", "Helvetica", "sans-serif";
 // $headers-font: "Figtree", "Helvetica", "sans-serif";
-$headers-font: "Neulis Alt", "Helvetica", "sans-serif";
+$headers-font: "Chillax-Regular", "Helvetica", "sans-serif";
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
@@ -33,4 +34,14 @@ $headers-font: "Neulis Alt", "Helvetica", "sans-serif";
         font-url('Konnect-Light/Konnect-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'Chillax-Regular';
+  src: url('Chillax_Regular/Chillax-Regular.woff2') format('woff2'),
+       url('Chillax_Regular/Chillax-Regular.woff') format('woff'),
+       url('Chillax_Complete/Chillax-Regular.ttf') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: normal;
 }
