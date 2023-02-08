@@ -1,6 +1,7 @@
-// Import fonts
+// Import Google fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&display=swap');
 
-@import url('../config/chillax.css');
 
 // Define fonts for body and headers
 $body-font: "Chillax-Regular", "Helvetica", "sans-serif";
@@ -17,6 +18,23 @@ $headers-font: "Chillax-Semibold", "Helvetica", "sans-serif";
 // }
 // $my-font: "Font Name";
 
+@font-face {
+  font-family: 'Neulis Alt';
+  src:  font-url('NeulisAlt-Bold/NeulisAlt-Bold.woff2') format('woff2'),
+        font-url('NeulisAlt-Bold/NeulisAlt-Bold.woff') format('woff'),
+        font-url('NeulisAlt-Bold/NeulisAlt-Bold.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Konnect';
+  src:  font-url('Konnect-Light/Konnect-Light.woff2') format('woff2'),
+        font-url('Konnect-Light/Konnect-Light.woff') format('woff'),
+        font-url('Konnect-Light/Konnect-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
 
 @font-face {
   font-family: 'Chillax-Semibold';
@@ -27,6 +45,8 @@ $headers-font: "Chillax-Semibold", "Helvetica", "sans-serif";
        font-display: swap;
        font-style: normal;
 }
+
+
 
 @font-face {
   font-family: 'Chillax-Regular';
