@@ -6,6 +6,8 @@ ruby "3.1.2"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4"
 
+
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
@@ -60,6 +62,7 @@ gem "sassc-rails"
 gem "autoprefixer-rails"
 gem "devise"
 gem "font-awesome-sass", "~> 6.1"
+gem "webpacker", "~> 6.0.0.rc.6"
 gem 'initials'
 gem "pundit"
 gem "simple_form", github: "heartcombo/simple_form"
